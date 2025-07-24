@@ -1,5 +1,8 @@
 import MealsSearchInput from "./components/MealsSearchInput";
-
+export const metadata = {
+  title: "All Meals ",
+  description: "Trying to load meals data",
+};
 const MealsPage =async ({searchParams}) => {
     const query = await searchParams;
         
