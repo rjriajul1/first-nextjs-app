@@ -8,7 +8,7 @@ export const metadata = {
 
 const roboto = Roboto({
   weight:["400"],
-  // subsets:"italic"
+  subsets: ["latin"]
 })
 const MealsPage =async ({searchParams}) => {
     const query = await searchParams;

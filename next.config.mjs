@@ -6,7 +6,16 @@ const nextConfig = { images: {
         hostname: 'www.themealdb.com',
         
       },
+
+      // {
+      //   protocol:"https",
+      //   hostname:"i.ibb.co"
+      // }
     ],
-  },};
+  },
+   env: {
+    BASE_URL: process.env.BASE_URL,
+  },
+};
 
 export default nextConfig;
